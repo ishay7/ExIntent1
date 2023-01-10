@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="First Name"
+        android:id="@+id/ETfname"
+        android:layout_weight="6"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="Family Name"
+        android:id="@+id/ETlname"
+        android:layout_weight="6"
+        android:layout_margin="20dp"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:hint="Adress"
+        android:id="@+id/ETadress"
+        android:layout_weight="6"
+        android:layout_margin="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textSize="30sp"
+        android:id="@+id/btnSubmit"
+        android:layout_weight="6"
+        android:layout_margin="20dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="camera"
+        android:textSize="30sp"
+        android:id="@+id/btnCamera"
+        android:layout_weight="6"
+        android:layout_margin="20dp"
+        />
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        android:layout_weight="6"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:id="@+id/iv"
+        />
+
+
+
+
+</LinearLayout>
